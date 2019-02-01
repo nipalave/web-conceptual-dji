@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+/* Global */
+*{
+    
+}
+
+/* General */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.col {
+	display: block;
+    float:left;
+    padding: 1px 2px;
+	margin: 1% 7px 1% 8px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col-100 {
+    width: 98%;
+}
+
+.col-75 {
+    width: 73%;
+}
+
+.col-60 {
+    width: 58%;
+}
+
+.col-50 {
+    width: 48%;
+}
+
+.col-40 {
+    width: 38%;
+}
+
+.col-25 {
+    width: 23%;
+}
+
+.col-20 {
+    width: 19%;
+}
+
+.col-10 {
+    width: 9%;
+}
+
+/* Home section */
+.header-section {
+    position:fixed;
+    width:100%;
+}
+
+.navbar-top {
+    padding: 10px 0;
+    color: #fff;
+    background: rgba(0,0,0, .7);
+}
+
+.brand-logo {
+    float: left;
+    display: inline-block;
+    width: 60px;
+}
+
+.brand-logo img {
+    padding: 3px 0;
+    width: 100%;
+}
+
+
+.brand-logo h3{
+    font-family: audiowide;
+    font-size: 1.5rem;
+    font-weight: 100;
+    display: inline;
+    padding: 0 8px;
+}
+
+.nav-items {
+    float: right;
+    display: inline-block;
+    padding-top: .9rem;
+}
+
+.nav-list {
+    margin: 0;
+    float: right;
+}
+
+.nav-link {
+    font-size: .8rem;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.nav-link a{
+    padding: 10px 0;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link a:hover,
+.nav-link a.active {
+    border-bottom: 1.5px solid #FED933;
+}
+
+.nav-link .button-nav {
+    background-color: #FED933;
+    border: 1px solid #FED933;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: #000;
+    letter-spacing: normal;
+    font-weight: 600;
+}
+
+.nav-link .button-nav:hover{
+    background-color: #ecc101;
+    border: 1px solid #ecc101;
+}
+
+.toggle {
+    width: 100%;
+    text-align: right;
+    box-sizing: border-box;
+    font-size: 35px;
+    display: none;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+
+
+.home-section {
+    background: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url('../img/alexej-braitmayer-681757-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.home-title {
+    text-align: center;
+}
+
+.home-title h1{
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 15rem;
+    font-size: 4.2rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    padding-bottom: 1rem;
+}
+
+.home-title h3 {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    padding-bottom: 1.6rem;
+}
+
+
+/* Main Section */
+.dark {
+    background-color: #0a0d0f;
+    color: #ccc;
+}
+
+.light-dark {
+    background: #1e272e;
+    color: #fff;
+}
+
+.light {
+    background: #fff;
+    color: #000;
+}
+
+.description-section {
+    padding: 6rem 0 6rem 0;
+}
+
+.description-section img {
+    width: 100%;
+}
+
+.description-section h3 {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    text-align: left;
+    letter-spacing: 2px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    border-bottom: 1.5px solid #FED933;
+}
+
+
+.description-section p {
+    margin-top: 30px;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+/* Features Section */
+.features-section {
+    padding: 6rem 0 6rem 0;
+}
+
+.features-section .col{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.features-section h3 {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    text-align: left;
+    letter-spacing: 2px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    border-bottom: 1.5px solid #FED933;
+}
+
+.features-section h4 {
+    text-align: center;
+}
+
+.features-section .icon {
+    text-align: center;
+}
+
+.features-section .feature-icon {
+    width: 25px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.features-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0 60px 0;
+    width: 60%;
+}
+
+.features-section p {
+    margin: 0 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.feature-row {
+    margin: 0 auto;
+    width: 89%
+}
+
+/* Explore section */
+.explore-section {
+    background: linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)), url('../img/bobby-stevenson-494964-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.explore-title h1 {
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 13rem;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+    text-align: center;
+}
+
+
+/* Buy Section */
+.buy-section {
+    padding: 6rem 0 6rem 0;
+}
+
+.buy-section h3 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 6px;
+    font-weight: lighter;
+    padding-bottom: 8px;
+    color: #515253;
+    
+}
+
+.mavic {
+    color: #303233;
+    font-weight: bold;
+}
+
+.buy-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.buy-section .button-buy {
+    background-color: transparent;
+    border: 2px solid #111619;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #111619;
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.buy-section a{
+    padding: 10px 0;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+.buy-section .button-buy:hover{
+    background-color: #111619;
+    color: #fff;
+    
+}
+
+.buy-content {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.buy-content p {
+    color: #515253;
+    font-size: 18px;
+    padding-bottom: 2rem;
+    font-weight: 500;
+}
+
+
+/* Footer Section */
+.footer-section {
+    text-align: center;
+}
+
+.footer-section img {
+    padding-bottom: 30px;
+    width: 60px;
+}
+
+.footer-section a {
+    color: #ccc;
+}
+
+.footer-content {
+    padding: 9rem 0 0 0;
+}
+
+hr.socket {
+    width: 100%;
+    border: 1.2px solid #666b71;
+}
+
+.socket-section {
+    padding: 3rem 0 5rem 0;
+}
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+
+    /* Nav Elements */
+    .nav-items {
+        float: inherit;
+        display: none;
+    }
+
+    .nav-list{
+        width: 100%;
+    }
+
+    .nav-link {
+        display: block;
+        text-align: left;
+        padding: 20px 0;
+        font-size: 1rem;
+        letter-spacing: normal;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .active {
+        width: 100%;
+        display: block;
+    }
+
+    /* Main elements */
+    .row {
+        display: block;
+        overflow: hidden;
+    }
+
+    .col-40 {
+        width: 97%;
+    }
+
+    .col-60 {
+        width: 97%;
+    }
+
+    .col-100 {
+        width: 97%;
+    }
+
+    .col-25 {
+        width: 97%;
+    }
+
+    .home-title h1{
+        font-size: 3rem;
+    }
+
+    .home-title h3{
+        font-size: 1.4rem;
+    }
+
+    .features-section img {
+        width: 100%;
+    }
+
+    .buy-section img {
+        width: 100%;
+    }
+
+    .explore-title h1 {
+        font-size: 2.5rem;
+    }
+}
+
+
+
