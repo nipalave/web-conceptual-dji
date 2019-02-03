@@ -181,8 +181,8 @@ h3 {
 .home-title h1{
     color: #fff;
     text-transform: uppercase;
-    padding-top: 15rem;
-    font-size: 4.2rem;
+    padding-top: 21%;
+    font-size: 4rem;
     font-weight: 700;
     letter-spacing: 0.3rem;
     padding-bottom: 1rem;
@@ -311,8 +311,8 @@ h3 {
 .explore-title h1 {
     color: #fff;
     text-transform: uppercase;
-    padding-top: 13rem;
-    font-size: 4rem;
+    padding-top: 21%;
+    font-size: 3rem;
     font-weight: 600;
     letter-spacing: 0.4rem;
     text-align: center;
@@ -431,7 +431,7 @@ hr.socket {
         display: block;
         text-align: left;
         padding: 20px 0;
-        font-size: 1rem;
+        font-size: .8rem;
         letter-spacing: normal;
     }
 
@@ -467,11 +467,16 @@ hr.socket {
     }
 
     .home-title h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .home-title h3{
-        font-size: 1.4rem;
+        font-size: 1rem;
+    }
+
+    .description-section p {
+        font-size: 14px;
+        padding: 0 8px;
     }
 
     .features-section img {
@@ -483,7 +488,7 @@ hr.socket {
     }
 
     .explore-title h1 {
-        font-size: 2.5rem;
+        font-size: 1.7rem;
     }
 }
 
