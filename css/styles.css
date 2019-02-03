@@ -172,6 +172,7 @@ h3 {
     background-position: center;
     min-height: 100vh;
     width: 100%;
+    z-index: -10; 
 }
 
 .home-title {
@@ -181,7 +182,7 @@ h3 {
 .home-title h1{
     color: #fff;
     text-transform: uppercase;
-    padding-top: 21%;
+    padding-top: 40vh;
     font-size: 4rem;
     font-weight: 700;
     letter-spacing: 0.3rem;
@@ -306,12 +307,13 @@ h3 {
     background-attachment: fixed;
     min-height: 100vh;
     width: 100%;
+    z-index: -10; 
 }
 
 .explore-title h1 {
     color: #fff;
     text-transform: uppercase;
-    padding-top: 21%;
+    padding-top: 35vh;
     font-size: 3rem;
     font-weight: 600;
     letter-spacing: 0.4rem;
@@ -479,6 +481,10 @@ hr.socket {
         padding: 0 8px;
     }
 
+    .explore-title h1 {
+        font-size: 1.6rem;
+    }
+
     .features-section img {
         width: 100%;
     }
@@ -487,9 +493,6 @@ hr.socket {
         width: 100%;
     }
 
-    .explore-title h1 {
-        font-size: 1.7rem;
-    }
 }
 
 
