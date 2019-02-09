@@ -90,7 +90,7 @@ h3 {
 
 .brand-logo {
     float: left;
-    display: inline-block;
+    display: block;
     width: 60px;
 }
 
@@ -110,7 +110,7 @@ h3 {
 
 .nav-items {
     float: right;
-    display: inline-block;
+    display: block;
     padding-top: .9rem;
 }
 
